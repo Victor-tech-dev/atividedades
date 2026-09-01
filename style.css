@@ -1,0 +1,59 @@
+
+.ubuntu-bold {
+font-family: "Ubuntu", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+:root {
+    --cor-fundo: #0f172a;
+    --cor-texto: #a72c51;
+    --cor-destaque: #6b1c9f;
+}
+
+body {
+    font-family: 'Noto Sans Korean', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    text-align: center;
+    background-image: linear-gradient(to bottom,#4B0082,#FF1493);
+    min-height: 100vh;
+}
+
+.cartao {
+    background-color: var(--cor-fundo-cartao);
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-top: 4px solid var(--cor-destaque);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.cartao h1 { 
+    font-size: 32px; color: var(--cor-destaque); 
+    margin-bottom: 10px; 
+    letter-spacing: 1px; 
+} 
+
+.cartao p { font-size: 16px; color:
+var( -cor-texto-secundario); line-height: 1.5;
+}
+
+
+h1 {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    color: var(--cor-destaque);
+}
+
+p {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    color: var(--cor-texto);
+}
